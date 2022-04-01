@@ -1,0 +1,165 @@
+/* Box Model Hack */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #fff;
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+
+.FirstHeader,
+.FirstSection {
+	background: #66768a;
+	color: white;
+}
+
+#donate {
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	color: #66768a;
+	background: white;
+	padding: 10px;
+}
+
+nav img {
+	width: 45px;
+	text-align: center;
+}
+
+#classes,
+#hire {
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	float: left;
+}
+
+nav ul {
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	color: white;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+#grit {
+	font-size: 40px;
+	max-height: auto;
+}
+
+.FirstSection {
+	padding: 40px;
+	text-align: center;
+}
+
+.FirstSection span {
+	font-style: italic;
+	color: black;
+}
+
+#watch {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding: 10px;
+}
+
+.SecondSection {
+	padding: 80px;
+	background: transparent;
+	text-align: center;
+	color: black;
+}
+
+.ThirdSection,
+.VisitYou {
+	padding: 40px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	background: lightgray;
+}
+
+.ThirdSection h3 p {
+	float: left;
+	text-align: center;
+}
+
+.FourthSection {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: transparent;
+	text-align: center;
+	color: black;
+}
+
+button {
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	background: transparent;
+	color: #66768a;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	width: 100%;
+	padding: 20px;
+	background: #06231f;
+	color: white;
+}
+
+#foot > section > img {
+	float: left;
+	padding: 10px;
+}
+
+footer nav ul {
+	text-align: left;
+	float: left;
+}
+
+aside {
+	float: right;
+	text-align: right;
+}
+
+#BottomSpan {
+	float: left;
+}
+
+#BottomPicture {
+	float: right;
+}
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
